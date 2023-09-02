@@ -94,8 +94,8 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.92.61.57:8181/mylandmarktech/repository/tesla-releases/</url>
+	      <name>release</name>
+	      <url>http://localhost:8081/repository/tesla-repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
