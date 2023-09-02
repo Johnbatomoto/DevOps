@@ -101,7 +101,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>snapshot</name>
-	      <url>http://3.92.61.57:8</url>
+	      <url>http://localhost:8081/repository/tesla2-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
