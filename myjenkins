@@ -1,0 +1,10 @@
+node{
+    def mavenHome= tool name: 'apache-maven-3.9.4'
+    stage('1. codeclone'){
+       // sh "git clone https://github.com/Johnbatomoto/DevOps"
+        bat "git clone https://github.com/Johnbatomoto/DevOps"
+        }
+        stage('2.BuildTest'){
+        bat "${mavenHome}/bin/mvn package"
+        }
+        }
