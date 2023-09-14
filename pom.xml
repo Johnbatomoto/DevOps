@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla2</finalName>
+		<finalName>paypal</finalName>
 		
 		<plugins>
 			<plugin>
